@@ -17,7 +17,7 @@
     let targetTime = null;
     let timeOffsetMs = 0;
     let targetButtonText = "Add to Cart";
-    let stopAfterFirstClick = true;
+    let stopAfterFirstClick = false;
     let isRunning = false;
     let clickIntervalId = null;
     let animationFrameId = null;
@@ -122,7 +122,7 @@
         }
         #tm-start-btn { background: #28a745; color: white; display: block; }
         #tm-stop-btn { background: #dc3545; color: white; display: none; }
-        
+
         .tm-status { margin-top: 15px; font-size: 12px; color: #aaa; border-top: 1px solid #444; padding-top: 10px;}
         #tm-status-text { color: #fff; font-weight: bold; }
         .tm-countdown { font-size: 16px; text-align: center; margin-top: 10px; color: #00bcd4; font-weight: bold; }
