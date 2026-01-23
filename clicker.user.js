@@ -5,6 +5,7 @@
 // @description  Click "Add to Cart" (or custom text) exactly once at a specific time.
 // @author       Gemini
 // @match        *://www.recreation.gov/*
+// @match        *://reservation.pc.gc.ca/*
 // @grant        GM_addStyle
 // @grant        GM_setValue
 // @grant        GM_getValue
